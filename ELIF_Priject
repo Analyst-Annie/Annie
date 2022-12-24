@@ -1,3 +1,5 @@
+#Little programe to check your exam status
+
 sub1=int(input("Enter marks of the first subject: "))
 sub2=int(input("Enter marks of the second subject: "))
 sub3=int(input("Enter marks of the third subject: "))
@@ -12,3 +14,13 @@ elif(Total_Earn_Mark>40):
     print("C grade")
 elif(Total_Earn_Mark<=40):
     print("Try again FAIL")
+    
+    
+    #Little programe to check your eligiblity 
+
+Age=int(input("Enter your Age:  "))
+
+if Age>=18:
+    print("You are eligiable to apply to make gov ID")
+else:
+    print("you are minor")
