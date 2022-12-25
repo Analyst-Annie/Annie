@@ -1,0 +1,11 @@
+#Little program to explain for loop.
+
+a=[]
+for i in range(0,n):
+  var = input("Enter the entities : ")
+  a.append(var)
+for intem in a:
+  if intem.isnumeric() and int(item)>6:
+    print("number >6 are ",item):
+  else:
+    print("number <6 are", item)
